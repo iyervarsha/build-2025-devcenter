@@ -8,6 +8,7 @@ trigger:
 
 pool:
   vmImage: ubuntu-latest
+  name: VarshaPoolMDP
 
 steps:
 - script: echo Hello, world!
